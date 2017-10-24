@@ -2,7 +2,7 @@
 <li>
 </html>
 <?php
-$playeronline = file_get_contents('https://minecraft-api.com/api/ping/playeronline.php?ip=mc.dbdsnetwork.tk&port=25565');  
+$playeronline = file_get_contents('https://minecraft-api.com/api/ping/playeronline.php?ip=$ip&port=$port');  
 
 $ip = 'YOUR SERVER IP HERE';
 $port = YOUR SERVER PORT HERE;
